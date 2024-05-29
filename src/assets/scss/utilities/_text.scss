@@ -51,7 +51,7 @@
   @include text-emphasis-variant(".text-#{$color}", $value, true);
 }
 
-@each $color, $value in $gray {
+@each $color, $value in $grays {
   @include text-emphasis-variant(".text-gray#{$color}", $value, true);
 }
 

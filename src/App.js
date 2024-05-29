@@ -1,11 +1,19 @@
 import React from 'react';
 import "./assets/scss/style.scss";
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LandingPage from 'pages/LandingPage';
 
 function App() {
   return (
-    <div className="App">
-    <h1>Im Diki, I Learning react JS, and I promise as programmer front end until end. I fill, i can </h1>
+    <div className='App'>
+    <Router>
+      <Routes>
+        <Route path="/" component={LandingPage}>
+
+        </Route>
+      </Routes>
+    </Router>
+
     </div>
   );
 }
