@@ -3,12 +3,13 @@ import Header from "parts/Header";
 import { Component } from "react";
 
 
-export default class LandingPage  extends Component{
+
+class LandingPage  extends Component{
   render(){
 
     return (
     <>
-    <Header {...this.props} />
+    <Header {...this.props}> </Header>
     
   
     
@@ -16,3 +17,5 @@ export default class LandingPage  extends Component{
   )
 }
 }
+
+export default (LandingPage)
